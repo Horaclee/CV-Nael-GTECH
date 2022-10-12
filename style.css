@@ -1,26 +1,24 @@
-.Aboutme
+.About
 {
-    color: aqua;
-    font-style: italic;
-    text-decoration:underline;
-}
-
-.Contact
-{
-    color: aqua;
-    font-style: italic;
-    text-decoration:underline;
-}
-
-.Skills
-{
-    color: aqua;
+    color: rgb(104, 63, 79);
     font-style: italic;
     text-decoration:underline;
 }
 
 .FontSize
 {
-    font-size:large;
+    font-family: 'Times New Roman', Times, serif;
     font-style: italic;
+    font-size: large;
 }
+
+.Name
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h4
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+
