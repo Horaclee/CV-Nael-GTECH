@@ -3,6 +3,7 @@
     color: rgb(104, 63, 79);
     font-style: italic;
     text-decoration:underline;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .FontSize
@@ -22,3 +23,7 @@ h4
     font-family: 'Times New Roman', Times, serif;
 }
 
+/* .mx-3
+{
+    font-family: 'Times New Roman', Times, serif;
+} */
