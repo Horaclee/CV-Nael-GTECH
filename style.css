@@ -23,9 +23,22 @@ h4
     font-family: 'Times New Roman', Times, serif;
 }
 
-.button
+
+.dark
 {
-    background: linear-gradient(to bottom right, rgb(161, 29, 29), pink);
+    background-color: rgb(54, 49, 49);
+    color: rgb(255, 255, 255);
+}
+
+body
+{
+    background-color: white;
+    color: black;
+}
+
+#theme-btn
+{
+    background: linear-gradient(to bottom right, rgb(104, 63, 79), pink);
     border-radius: 8px;
     border: 2px solid rgb(39, 250, 169);
     color: white;
@@ -37,4 +50,30 @@ h4
     margin: 4px 8px;
     cursor: pointer;
   }
+
+.button
+{
+    background: linear-gradient(to bottom right, rgb(104, 63, 79), pink);
+    border-radius: 8px;
+    border: 2px solid rgb(39, 250, 169);
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 8px;
+    cursor: pointer;
+}
+
+#copyButton
+{
+    height: auto;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 2 0px;
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+}
 

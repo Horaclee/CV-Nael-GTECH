@@ -14,12 +14,12 @@
         
         <title>CV</title>
     </head>
-    <body class="bg-secondary bg-opacity-50"> <!-- background du cv -->
-        
+    <body> <!-- background du cv -->
+
         <!-- 1er bloc -->
         <div class="row justify-content-center my-4">
             <div class="col-lg-4 col-md-4 col-12">
-                <div class="card bg-opacity-75 bg-secondary border-dark text-center">
+                <div class="card bg-opacity-75 bg-secondary border-light text-center">
                     <div class="text-center my-3">
                         <img class="img-thumbnail" src="img/photo-identité-Nael-BELLON.jpg" width="30%"> <br>
                     </div>
@@ -28,8 +28,9 @@
                     </h3>
                     <nav class="navbar navbar-expand-lg">
                         <a class="button" href="https://twitch.tv/Horacle_" target="_blank">Twitch</a>
-                        <a class="button" href="hhtps://discord.gg/EQ7USUMezz" target="_blank">Discord</a>
+                        <a class="button" href="https://discord.com/invite/EQ7USUMezz" target="_blank">Discord</a>
                         <a class="button" href="hhtps://"></a>
+                        <button id="theme-btn">Changer de theme</button>
                     </nav>
                 </div>
             </div>
@@ -37,7 +38,7 @@
         <!-- 2e bloc -->
         <div class="row justify-content-center mb-4">
             <div class="col-lg-4">
-                <div class="card bg-opacity-75 bg-secondary border-dark text-center">
+                <div class="card bg-opacity-75 bg-secondary border-light text-center">
 
                         <div class="About"> 
                             <h3 class="mx-3">A propos de moi:</h3>
@@ -100,10 +101,18 @@
                         
                         <h4 class="mx-4">Mail</h4>
                         
-                        <div class="mx-5">
-                            <p class="FontSize">nbellonaitoussekri@gaming.tech</p>
-                        </div>
                         
+                        <div class="mx-5" id="mail">
+                            <p id="textToCopy">nbellonaitoussekri@gaming.tech
+                            <button id="copyButton">
+                                Click to copy
+                            </button> 
+                            </p>
+                            <span id="copyResult"></span>
+                            
+                            
+                        </div>
+                            
                         <h4 class="mx-4">Numéro de téléphone</h4>
                         
                         <div class="mx-5">
@@ -116,6 +125,11 @@
         <script 
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" 
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" 
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous">
+        </script>
+
+        <script src="js.java">
+
+        </script>
     </body>
 </html>
