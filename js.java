@@ -1,4 +1,5 @@
-function copyToClipboard(element) {
+function copyToClipboard(element) 
+{
   var $temp = $("<input>");
   $("body").append($temp);
   $temp.val($(element).text()).select();

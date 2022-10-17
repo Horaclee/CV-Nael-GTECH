@@ -1,6 +1,6 @@
 .About
 {
-    color: rgb(104, 63, 79);
+    color: rgb(255, 230, 5);
     font-style: italic;
     text-decoration:underline;
     font-family: 'Times New Roman', Times, serif;
@@ -16,6 +16,7 @@
 .Name
 {
     font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }
 
 h4
@@ -23,47 +24,49 @@ h4
     font-family: 'Times New Roman', Times, serif;
 }
 
+.img
+{
+    border-radius: 8px;
+}
 
 .dark
 {
-    background-color: rgb(54, 49, 49);
-    color: rgb(255, 255, 255);
+    background-color: rgb(26, 24, 24);
 }
 
 body
 {
-    background-color: white;
-    color: black;
+    background-color: rgb(32, 19, 19);
 }
 
 #theme-btn
 {
-    background: linear-gradient(to bottom right, rgb(104, 63, 79), pink);
+    background: linear-gradient(to bottom right, rgb(195, 42, 200), rgb(223, 231, 10));
     border-radius: 8px;
-    border: 2px solid rgb(39, 250, 169);
-    color: white;
-    padding: 10px 10px;
+    border: 2px solid rgb(239, 250, 39);
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 15px;
-    margin: 4px 8px;
+    margin: auto;
+    padding: 6px;
     cursor: pointer;
+    color: black;
   }
 
 .button
 {
-    background: linear-gradient(to bottom right, rgb(104, 63, 79), pink);
+    background: linear-gradient(to bottom right, rgb(195, 42, 200), rgb(223, 231, 10));
     border-radius: 8px;
-    border: 2px solid rgb(39, 250, 169);
-    color: white;
-    padding: 10px 10px;
+    border: 2px solid rgb(239, 250, 39);
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 15px;
-    margin: 4px 8px;
+    padding: 6px;
+    margin: auto;
     cursor: pointer;
+    color: black;
 }
 
 #copyButton
@@ -74,6 +77,16 @@ body
     font-size: 2 0px;
     font-family: 'Oswald', sans-serif;
     cursor: pointer;
-    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(239, 250, 39);
+    background: linear-gradient(to bottom right, rgb(195, 42, 200), rgb(223, 231, 10));
+}
+
+#CARD
+{
+    background: linear-gradient(to bottom right, rgb(14, 48, 80), rgb(18, 156, 119));
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: rgb(236, 228, 4);
+    color: black;
 }
 
