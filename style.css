@@ -22,3 +22,19 @@ h4
 {
     font-family: 'Times New Roman', Times, serif;
 }
+
+.button
+{
+    background: linear-gradient(to bottom right, rgb(161, 29, 29), pink);
+    border-radius: 8px;
+    border: 2px solid rgb(39, 250, 169);
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 8px;
+    cursor: pointer;
+  }
+
